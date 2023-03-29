@@ -20,6 +20,7 @@ NOTE: The index.html file is only there to make sure apache container is success
 2. In your terminal: 
 	* `docker compose build` 
 	* `docker compose up -d`
+	
 The -d flag is running the containers as "detached" and therefore ran in background
 
 To destroy the containers: `docker compose down`
